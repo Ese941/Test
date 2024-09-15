@@ -1,0 +1,101 @@
+#section 1
+#Q1 PRINTING AND STRING MANIPULATION
+#part A
+#print("Hello, Eseoghene Umukoro! Welcome to python programming.")
+
+#part B
+# first_name=input("Write out your first name: ")
+# last_name=input("Write out your last name: ")
+# full_name= first_name + " " + last_name
+# print(full_name.upper())
+
+
+#Q2 USER INPUT AND VARIABLE
+# age=int(input("How old are you?  "))
+# years_remaining= 100 - age
+# print(f"You will turn 100 in {years_remaining} years" )
+
+
+
+# SECTION 2
+# Q3 if,elif and else statements
+# score=int(input("What did  you score in your test ?   "))
+# if score >=90 :
+#     print("Grade A")
+# elif score >=80 :
+#     print("Grade B")
+# elif score >=70 :
+#     print("Grade C")
+# elif score >=60 :
+#     print("Grade D")
+# else:
+#     print("Grade F")
+
+#Q4 LOGICAL OPERATORS
+# age=int(input("How old are you?  "))
+# licensce=input("Do you own a driving licensce? ")
+# if age >=18 and license== "yes" :
+#     print("You are  allowed to drive")
+# else:
+#     print("You are not allowed too drive")
+
+#section 3
+#Q5  DICE ROLL
+# import random
+# dice=random.randint(1,6)
+# print(f"Dice roll result: {dice}")
+
+#Q5b  Rock, PAPER, SCISSORS GAME
+# import random
+# player_choice=(input("Pick one....\n 1. Rock \n 2. Paper \n 3. Scissors \n"))
+# computer_choice=["Rock", "Paper", "Scissors"]
+# computer=random.choice(computer_choice)
+# print(f"Python chooses {computer}")
+# if player_choice==computer :
+#     print("It's a tie!")
+# elif player_choice== "Rock" and computer== "Scissors":
+#     print("Scissors beats Rock")
+# elif player_choice== "Paper" and computer== "Rock":
+#     print("Rock beats Paper")
+# elif player_choice== "Scissors" and computer== "Paper":
+#     print("Paper beats Scissors")
+# else:
+#     print("Try again!")
+
+
+# SECTION 4
+# fav_food=["Fried Plantain", "Coconut Rice", "French Fries", "Yam and fish sauce", "Spaghetti"]
+# print(fav_food)
+# k=fav_food.append("salad")
+# print(fav_food)
+
+# g=fav_food.insert(2,"ice_cream")
+# print(fav_food)
+
+# f=fav_food.remove("salad")
+# print(fav_food)
+
+# l=fav_food.sort()
+# print(fav_food)
+
+#Q 7
+# import random
+# user=print("Write out five of your friends name: \n")
+# f1=input("first friend: ")
+# f2=input("Second friend: ")
+# f3=input("Third friend: ")
+# f4=input("Fourth friend: ")
+# f5=input("Fith friend: ")
+# user_list= [f1 +", " + f2 +" ," + f3 +" ," + f4 +" ," + f5 ]
+# print(user_list)
+# x=random.choice(user_list)
+# print(f"{x} is a winner!")
+
+
+
+#SECTION 5
+# Github is an application that allows programmers to be able to share their code with other programmers online (collaborating with other programmers to code).
+# It also allows you to access your code online even without your own laptop.
+
+
+#9
